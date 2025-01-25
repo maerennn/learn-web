@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Give me Data!</title>
+<link rel="stylesheet" href="stylesform.css" />
+</head>
+
+<body>
+<h1 id="title">Are you my Boyfriend?</h1>
+<p id="description">this is a form to check if u are my boyfriend.</p>
+<form id="survey-form">
+
+    <fieldset>
+        <div>
+        <label for="name" id="name-label">What's Your Name ? <input id="name" type="text" placeholder="name pls" required/></label>
+        </div>
+        <div>
+        <label for="email" id="email-label">What's Your Email ? <input id="email" type="email" placeholder= "so i could send u sumthing <3" required/></label>
+        </div>
+        <div>
+        <label for="number" id="number-label">What's Your Age ? <input id="number" type="number" min="18" max="23" placeholder= "i wont date kids" required/></label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="dropdown">pick one of 5 love languages</label>
+        <select id="dropdown">
+            <option value="">(pick u dumb dumb)</option>
+            <option value="1">spend time tgt :D</option>
+            <option value="2">give a lot of affirmation</option>
+            <option value="3">love to kiss me a.k.a physical touch</option>
+            <option value="4">give me gifts</option>
+            <option value="5">acts of service </option>
+        </select>
+        <p>what u like more?</p>
+        <label for="dog-person"><input class="inline" id="dog-person" name="person" value="dog" type="radio"/>dog </label>
+        <label for="cat-person"><input class="inline" id="cat-person" name="person" value="cat" type="radio"/>cat </label>
+        <div>
+            <p>what u like to do?</p>
+            <label for="sleep"><input type="checkbox" class="inline" id="sleep" name="hobby" value="sleep"/> sleeping</label>
+            <label for="coding"><input type="checkbox" class="inline" id="coding" name="hobby" value="coding"/> coding</label>
+            <label for="adventuring"><input type="checkbox" class="inline" id="adventuring" name="hobby" value="adventuring"/> adventuring</label>
+            <label for="watch_movies"><input type="checkbox" class="inline" id="watch_movies" name="hobby" value="watch_movies"/> watch movies</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="msg"> any messages for ur gf :D </label>
+        <textarea id="msg" rows="4" cols="50"></textarea>
+    </fieldset>
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
